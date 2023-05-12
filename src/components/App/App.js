@@ -7,7 +7,7 @@ import CardsContainer from '../CardsContainer/CardsContainer';
 const App = () => {
   return (
     <div className='App'>
-      <Header />
+      <Header title={`mi titulo`} />
       <Hero />
       <CardsContainer />
       <Footer />
