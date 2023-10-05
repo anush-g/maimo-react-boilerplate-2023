@@ -1,27 +1,49 @@
-.header_container{
-  background: #4542a4;
-  padding:10px 30px;
+header {
+  position: fixed;
+  padding-top: 1em;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5); /* Establece el color de fondo con opacidad */
+  opacity: 1;
+  width: 100%;
+}
+
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color:#fff;
+  padding: 15px 30px;
+  font-weight: light;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent; /* Define un fondo transparente */
+  transition: background-color 0.5s ease-in-out; /* Agrega una transición al cambio de color de fondo */
 }
-
-.header_container img{
-  width: 50px;
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0.6); /* Cambia el fondo al agregar la clase "scrolled" */
 }
-
-.header_container nav ul{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+nav ul {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
-.header_container nav ul li{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding-right: 20px;
+nav li {
+  margin: 0;
+  text-transform: lowercase;
+  letter-spacing: 0.15em;
+  font-size: 1.2rem;   
+  flex-grow: 1;
+  text-align: center;
+  padding: 0;
 }
-.header_container nav ul li:last-child{
-  padding-right: 10px;
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgb(255, 255, 255);
+  padding-bottom:0.3em;
+  border-bottom:2px solid white;
 }

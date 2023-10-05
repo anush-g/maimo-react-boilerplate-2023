@@ -1,0 +1,54 @@
+.nl {
+    height: 100vh;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+  .nl_content{
+    margin-top: 4em;
+    background-color: white;
+    width: 50%;
+    padding: 4em 6em;
+    height:60vh;
+    justify-content: center;
+  }
+  .nl h3{ /*también CTA*/
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+    color:rgb(136, 80, 150);
+  }
+  .nl p { /*también CTA*/
+    font-size: 1.3rem;
+    color: #313045;
+    margin-bottom: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }  
+  .nl form {
+    text-align: center;
+  }
+  .nl input[type="email"] {
+    padding: 0.9em;
+    border: 1px solid #ccc;
+    width:100%;
+    margin-bottom: 0.8em;
+    font-size: 0.9rem;
+  } 
+  .btn {  /*también el del CTA*/
+    background-color: rgb(136, 80, 150);
+    color: #fff;
+    border: none;
+    padding: 1.2em;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    text-align: center;
+    margin:0.8em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
