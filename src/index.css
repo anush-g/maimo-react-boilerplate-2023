@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 90%; /* 1rem = 10px */
+  line-height: 1.5;
+}
+body{
+    font-family: bodoni;
+    margin: 20px 0;
+    color:grey;
+    margin: 0 auto;
+}
+ul{
+  display: flex;
+  list-style: none;
+}

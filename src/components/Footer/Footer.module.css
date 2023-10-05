@@ -1,0 +1,23 @@
+footer {
+    background-color: rgb(41, 38, 42);
+    color: #fff;
+    padding: 3em 4.5em 1em 4.5em;
+    display: flex;
+    justify-content: space-between;
+  }
+  aside{
+    display: flex;
+  }
+  aside a span{
+    display: none;
+  }
+  aside a{
+    font-size: 2rem;
+    color: white;
+  }
+  address{
+    margin-top:0.7em;
+  }
+  aside ul{
+    padding-left: 20px;
+  }
